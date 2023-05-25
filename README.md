@@ -32,6 +32,7 @@ make run
 ## How it works
 
 The `ffi` directory contains the `ffi.go` file which is the entry point for the shared library, it contains the `export` directive which tells the compiler to export the functions to the shared library.
+
 Now we have an `ffi.py` and it's used as the interface letting Python users access to the built shared library which is in the `ffi` directory.
 
 That way we can easily build the shared library and use it from Python while having both the Golang and Python code seperated or like this example shows, in the same repo but in different directories,
