@@ -1,3 +1,5 @@
+// This file is not needed for the Python demo, but is used to show a native Go execution.
+
 package main
 
 import (
@@ -5,5 +7,5 @@ import (
 )
 
 func main() {
-	pkg.Print("Hello from Go!")
+	pkg.Print("From Go!")
 }
